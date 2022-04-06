@@ -216,6 +216,7 @@ footer .button-container .bars-menu{
     font-size:2em;
     color: #0044AA;
     border: none;
+    background-color:white;
 }
 
 footer .button-container .bars-menu:hover i{
@@ -232,7 +233,6 @@ footer div h4{
 }
 
 footer .button-container h4{
-    
     font-size: 16px ;
     padding-top : 6px;
     margin: 0px;
