@@ -1,0 +1,541 @@
+*{
+    box-sizing: border-box;
+     padding: 0;
+
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+h3{
+    font-size: 24px;
+}
+
+h4{
+    font-weight: bold;
+}
+
+p{
+    font-size: 12px;
+}
+
+
+
+header{
+    background-color: #EAC926;
+    padding-top: 5px;
+    
+}
+
+div.top-header{
+    display: flex;
+    flex-wrap: wrap;
+        align-items: center;
+    
+}
+
+div.top-header p{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+header div.logo{
+    width: 45%;
+    padding: 0px;
+}
+
+header nav{
+    font-size: 12px;
+}
+
+header ul li{
+    list-style-type: none;
+    font-size: 12px;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.barra-busqueda{
+    background-color: #FFF;
+    display:flex;
+    flex-wrap: wrap;
+    align-content: baseline;
+    width: 45%;
+    border: 1px solid #000;
+    padding: 5px 0;
+    max-height: 45px;
+    border-radius: 3px;
+    margin: 0 5px;
+
+}
+
+.barra-busqueda .input{
+    width: 70%;
+    background-color: #FFF;
+    border: none;
+    outline: none;
+    color: #666;
+    max-height: 45px;
+    font-size: 12px;
+}
+.barra-busqueda .submit{
+    background-color: #FFF;
+    border: none;
+    color: #666;
+    outline: none;
+    width: 15%;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+
+div.burger-menu{
+    text-align: center;
+}
+
+div.burger-menu i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 8px;
+    width: 40px;
+}
+
+div.main-article{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    position: relative;
+}
+
+.price{
+    font-size: 18px;
+    flex: 50%;
+}
+
+.discount{
+    flex:50%;
+    color:#39b54a;
+}
+
+.discount,
+.description{
+    font-size: 16px;
+    font-weight: normal;
+    }
+
+h3,
+.description{
+    color: #666;
+}
+
+
+
+section.banner img{
+    width: 100%;
+}
+
+main{
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+main section article{
+    background-color: #fff;
+    margin: 10px 0px;
+    
+}
+
+
+main section article img{
+    width: 100%;
+}
+
+main section article i{
+    display: block;
+    font-size: 16px;
+    padding:5px;
+    width: 30px;
+    height: 30px;
+    color:#39b54a;
+    border: 1px solid #39b54a;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+
+.main-article{
+    border-top: 1px solid #ebebeb;
+    padding: 15px
+}
+
+.main-article i{
+    border: 1px solid #39b54a;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+
+nav{
+    display: none;
+}
+
+footer{
+    margin-top: 50px;
+    padding: 30px 5px 5px 5px;
+    border-top: 1px solid #666;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+footer .button-container{
+    text-align:center;
+    padding: 20px;
+   }
+
+footer .button-container .bars-menu{
+    font-size:2em;
+    color: #0044AA;
+    border: none;
+}
+
+footer .button-container .bars-menu:hover i{
+color: #1aaa00;
+transition: all 1000ms;
+
+
+    }
+
+footer div h4{
+    font-size: 12px;
+    margin-top: 50px;
+
+}
+
+footer .button-container h4{
+    
+    font-size: 16px ;
+    padding-top : 6px;
+    margin: 0px;
+    font-weight: bolder;
+
+ 
+}
+footer .button-container p{
+    box-sizing: content-box;
+    font-size: 14px;
+    padding : 1px 30px;
+    margin: 0px;
+}
+
+footer .copy{
+    display: flex;
+    font-size: 0.8rem;
+    margin: 10px 0 10px 0;
+    width: 100%;
+    justify-content: center;
+
+
+
+}
+
+
+.formulario{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    width: 600px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px 20px 50px 20px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 8px;
+    color: black; 
+   
+}
+
+.formulario h2{
+    flex-direction: row;
+    text-align:center;
+    margin: 20px 0 5px 0;
+}
+.formulario h5{
+    margin-bottom : 20px ;
+    margin-top: 5px;;
+}
+
+.formulario .controlador{
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 6px;
+    margin-bottom: 16px;
+    border:solid 1px #7d7d7e;
+
+}
+
+.formulario .controlador:focus-visible{
+    border: solid 1.8px #3483fa;
+    outline: none;
+}
+
+label{
+    margin-bottom: 5px;
+    color: grey;
+    font-weight: bold;
+}
+
+
+.button-container a{
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 20pc;
+}
+
+.interest,
+.profileP{
+    margin-bottom: 16px;
+    padding: 10px 0px;
+    padding: 2px;
+}
+
+
+
+.interest label.label{
+    margin: 10px 0;
+    padding: 10px 0 20px 0;}
+
+.interest p{
+    font-size: 14px;
+    margin: 2px;
+}
+
+.u-p-container{
+    outline: #666;
+}
+.u-profile{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin: 1px 1PX 10PX;
+    padding: 10px 0 10px 0px;
+    border: solid 1px #7d7d7e;
+    border-radius: 3px;
+}
+
+.profileP{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin: 1px 1PX 10PX;
+    padding: 10px 0 10px 10px;
+    border: solid 1px #7d7d7e;
+    border-radius: 3px;
+}
+
+
+.user-profile{
+    width: 25%;
+}
+
+div.button-container-r{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+div.button-container-r a{
+    text-decoration: none;
+    color: #ebebeb;
+    font-weight: bolder;
+}
+
+.button{
+    width: 35%;
+    padding:10px 0;
+    border-radius: 6px;
+    background-color:#3483fa ;
+    color:#ffffff;
+    font-weight:500;
+    transition: all 1000ms;
+}
+.button:hover {
+    background-color: #e03206;
+    color: white;
+    cursor: pointer;
+    }
+
+.controlador:invalid{
+    background-color: plum;
+
+}
+
+article .main-article i {
+    transition: transform 450ms;
+  }
+
+article:hover .main-article i {
+    transform:rotate(-90deg);
+  }
+
+
+
+/*tablet*/
+
+@media screen and (min-width:361px){
+    main section .products{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: baseline;
+    }
+    
+    main section article .description{
+        display: none;
+    }
+   
+    main section article{
+        width:42%;
+    }
+    .main-article :hover{
+        box-shadow: 2px #666;
+    }
+
+    div.top-header{
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+        flex-wrap: nowrap;  
+        
+    }
+    div.top-header p{
+        width: 35%;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    header div.logo{
+        width: 25%;
+        padding: 0px;
+    }
+    
+    .barra-busqueda{
+        width: 30%;
+    }
+
+
+
+
+ 
+@media screen and (min-width:769px) {
+   
+
+    main section article .description{
+        display: none;
+    }
+    
+    main section article{
+        width: 22%;
+    }
+
+    nav{
+        display: block;
+    }
+    .burger-menu{
+        display:none
+    }
+
+    .barra-inferior{
+        display:flex;
+        flex-wrap:wrap;
+    }
+
+    .lista1 li{
+        padding: 0 0 0 20px;
+    }
+
+    .lista2 li{
+        padding: 0 20px 0 0;
+    }
+
+    .barra-inferior .lista1{
+        width:40%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+    
+    .barra-inferior .lista2{
+        width:60%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        
+    }
+
+    div.top-header p{
+        width: 25%;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    header div.logo{
+        width: 15%;
+        padding: 0px;
+    }
+    
+    .barra-busqueda{
+        width: 45%;
+        height: 28px;
+    }
+
+    .barra-busqueda .input{
+        width: 90%;
+        font-size: 14px;
+    }
+   
+    
+    .barra-busqueda .submit{
+        font-size: 14px;
+        width: 10%;
+    }
+
+    .formulario{
+        max-width: 50%;
+    }
+
+    article:hover .main-article .description{
+      display: block;
+    }
+
+    article:hover{
+        box-shadow: 0px 0px 10px #666;
+    }
+
+    footer .button-container{
+       width: 29%;
+       }
+    }
+}
